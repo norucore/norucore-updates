@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "version": "0.6.0-preview.1",
+  "packages": [
+    {
+      "id": "norucore-exe",
+      "path": "app/NoruCore.exe",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/NoruCore.exe",
+      "sha256": "d4c4311e60aff824ad75e10d79d8473c9da73343e0d3be0a44df6063b44177a4",
+      "size": 96623104,
+      "executable": true,
+      "platforms": ["Windows"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "norucore-pck",
+      "path": "app/NoruCore.pck",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/NoruCore.pck",
+      "sha256": "ceb7c9e17972c9f654003ce44230b9f1311abe2fc891e896e6a0075684fee017",
+      "size": 34162380,
+      "executable": false,
+      "platforms": ["Windows"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "libnobodywho-godot-x86-64-pc-windows-msvc-release-dll",
+      "path": "app/libnobodywho-godot-x86_64-pc-windows-msvc-release.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/libnobodywho-godot-x86_64-pc-windows-msvc-release.dll",
+      "sha256": "cf182cf8f04d0c711a1f76bd691b21aab731cad399ecddc13c1da265670a0211",
+      "size": 78028800,
+      "executable": false,
+      "platforms": ["Windows"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "native-memory-store-windows-template-release-x86-64-dll",
+      "path": "app/native_memory_store.windows.template_release.x86_64.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/native_memory_store.windows.template_release.x86_64.dll",
+      "sha256": "e0adb849acdba4855fa9672a7c4fb32be0795ba7b7b6eb895f8b92bb81c043d8",
+      "size": 2288640,
+      "executable": false,
+      "platforms": ["Windows"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "native-turn-analyzer-windows-template-release-x86-64-dll",
+      "path": "app/native_turn_analyzer.windows.template_release.x86_64.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/native_turn_analyzer.windows.template_release.x86_64.dll",
+      "sha256": "7cf60ddee89427821c74833d623bb810c945b3de3b65a613b25e6229b5ed590d",
+      "size": 825856,
+      "executable": false,
+      "platforms": ["Windows"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "norucore-x86-64",
+      "path": "app/NoruCore.x86_64",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/NoruCore.x86_64",
+      "sha256": "c597144c89c168dba1c4aa6bebb47e4f164edb2343212cff763e85503e3cd171",
+      "size": 78504520,
+      "executable": true,
+      "platforms": ["Linux"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "norucore-linux-pck",
+      "path": "app/NoruCore.pck",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/NoruCore-linux.pck",
+      "sha256": "9fb8bf3888cf9e38e3c958c3099b4a95cc5b89f2b04dc41c85cd4db8f05f3693",
+      "size": 34162380,
+      "executable": false,
+      "platforms": ["Linux"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "libnobodywho-godot-x86-64-unknown-linux-gnu-release-so",
+      "path": "app/libnobodywho-godot-x86_64-unknown-linux-gnu-release.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/libnobodywho-godot-x86_64-unknown-linux-gnu-release.so",
+      "sha256": "3fa7530fdc5e3a058643a7f58d9ddbfeddf45f38a1e82164068d7acd3500c7e1",
+      "size": 67599072,
+      "executable": false,
+      "platforms": ["Linux"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "libnative-memory-store-linux-template-release-x86-64-so",
+      "path": "app/libnative_memory_store.linux.template_release.x86_64.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/libnative_memory_store.linux.template_release.x86_64.so",
+      "sha256": "3c1deb9eb7976f0ca600bf2cedc3e797d40e85507e270c44bb52549b23b025f6",
+      "size": 3740376,
+      "executable": false,
+      "platforms": ["Linux"],
+      "architectures": ["x86_64"]
+    },
+    {
+      "id": "libnative-turn-analyzer-linux-template-release-x86-64-so",
+      "path": "app/libnative_turn_analyzer.linux.template_release.x86_64.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/v0.6.0-preview.1/libnative_turn_analyzer.linux.template_release.x86_64.so",
+      "sha256": "32dd62d8f077465834bbe459bf52afbe6ef3da69f3951c4a4a5540d6fa36f977",
+      "size": 934280,
+      "executable": false,
+      "platforms": ["Linux"],
+      "architectures": ["x86_64"]
+    }
+  ]
+}
