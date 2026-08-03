@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "version": "0.6.0-preview.1",
+  "version": "0.6.0-preview.2",
   "release_info": {
     "channel": "Preview",
-    "app_version": "0.6.0-preview.1",
+    "app_version": "0.6.0-preview.2",
     "native_turn_analyzer_version": "0.4.2-semantic-guards",
     "godot_version": "4.7"
   },
@@ -12,8 +12,8 @@
       "id": "norucore-exe",
       "path": "app/NoruCore.exe",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore.exe",
-      "sha256": "1222a7008f486bcfe2038361c6f0c11371a8c0765295ba7682cb372a8edd889c",
-      "size": 96623104,
+      "sha256": "280696bd5f44f72f287fc67511fb0b3926faa63154db4a291448444c2e3b16c6",
+      "size": 96535040,
       "executable": true,
       "platforms": [
         "Windows"
@@ -26,8 +26,8 @@
       "id": "norucore-pck",
       "path": "app/NoruCore.pck",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore.pck",
-      "sha256": "e2370212f8aa7389200b6a2f85e2579e44912812c461ad1dd0b023c3bc471c87",
-      "size": 34261148,
+      "sha256": "3b5e4dd3b3a94d3380971295b810f69c86d70e047c633c82ebd816a35c9a7f64",
+      "size": 34281020,
       "executable": false,
       "platforms": [
         "Windows"
@@ -96,8 +96,8 @@
       "id": "norucore-linux-pck",
       "path": "app/NoruCore.pck",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore-linux.pck",
-      "sha256": "7c38a8b226cd5056cd999324084cb8ba987a34a8877d8813ff2192b664674854",
-      "size": 34261148,
+      "sha256": "d0bdfc9c058e72b6f239caa6edd8597a391d2b08e3825fc3de4e79592c12f444",
+      "size": 34281020,
       "executable": false,
       "platforms": [
         "Linux"
