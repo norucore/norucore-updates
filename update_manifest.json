@@ -26,8 +26,8 @@
       "id": "norucore-pck",
       "path": "app/NoruCore.pck",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore.pck",
-      "sha256": "3b5e4dd3b3a94d3380971295b810f69c86d70e047c633c82ebd816a35c9a7f64",
-      "size": 34281020,
+      "sha256": "8cf83625be6861e196ee53ac2f06924b8556d2149f89b0344ff5d64dffac006b",
+      "size": 40451276,
       "executable": false,
       "platforms": [
         "Windows"
