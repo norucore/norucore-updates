@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "version": "0.6.0-preview.2",
+  "version": "0.6.0-preview.3",
   "release_info": {
     "channel": "Preview",
-    "app_version": "0.6.0-preview.2",
-    "native_turn_analyzer_version": "0.4.2-semantic-guards",
+    "app_version": "0.6.0-preview.3",
+    "native_turn_analyzer_version": "0.5.7-analyzer-round",
     "godot_version": "4.7"
   },
   "packages": [
@@ -26,8 +26,8 @@
       "id": "norucore-pck",
       "path": "app/NoruCore.pck",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore.pck",
-      "sha256": "8cf83625be6861e196ee53ac2f06924b8556d2149f89b0344ff5d64dffac006b",
-      "size": 40451276,
+      "sha256": "f8e5566d23a46cc337aff7b292b60f1a4f1d487eb2fa89532e94ff91f74a1dce",
+      "size": 54231244,
       "executable": false,
       "platforms": [
         "Windows"
@@ -68,8 +68,8 @@
       "id": "native-turn-analyzer-windows-template-release-x86-64-dll",
       "path": "app/native_turn_analyzer.windows.template_release.x86_64.dll",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/native_turn_analyzer.windows.template_release.x86_64.dll",
-      "sha256": "7cf60ddee89427821c74833d623bb810c945b3de3b65a613b25e6229b5ed590d",
-      "size": 825856,
+      "sha256": "ca0e595d0a7c8698b1482bb0c2626bc8f543e220ea8ef805fd9e430f2106c172",
+      "size": 931840,
       "executable": false,
       "platforms": [
         "Windows"
@@ -96,8 +96,8 @@
       "id": "norucore-linux-pck",
       "path": "app/NoruCore.pck",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore-linux.pck",
-      "sha256": "d0bdfc9c058e72b6f239caa6edd8597a391d2b08e3825fc3de4e79592c12f444",
-      "size": 34281020,
+      "sha256": "f78e2411fd28de75feb27f48c6ba9566d3db0238f46e3d5905a78b0221d7e032",
+      "size": 54231244,
       "executable": false,
       "platforms": [
         "Linux"
@@ -138,8 +138,8 @@
       "id": "libnative-turn-analyzer-linux-template-release-x86-64-so",
       "path": "app/libnative_turn_analyzer.linux.template_release.x86_64.so",
       "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libnative_turn_analyzer.linux.template_release.x86_64.so",
-      "sha256": "32dd62d8f077465834bbe459bf52afbe6ef3da69f3951c4a4a5540d6fa36f977",
-      "size": 934280,
+      "sha256": "c9201c8f2d637378a575d2cf255bde1c0a157a8e129e32b16649e49dff2dc1fe",
+      "size": 1041120,
       "executable": false,
       "platforms": [
         "Linux"
