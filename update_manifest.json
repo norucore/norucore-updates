@@ -1,0 +1,698 @@
+{
+  "schema_version": 3,
+  "version": "0.6.0-alpha.6",
+  "release_info": {
+    "channel": "Preview",
+    "app_version": "0.6.0-alpha.6",
+    "native_turn_analyzer_version": "0.5.7-analyzer-round",
+    "godot_version": "4.7"
+  },
+  "packages": [
+    {
+      "id": "norucore-exe",
+      "path": "app/NoruCore.exe",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore.exe",
+      "sha256": "a2de29d475f3dcafeead45b2ca11382346fa084605bac659f775b3e07060dff9",
+      "size": 96535040,
+      "executable": true,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "norucore-pck",
+      "path": "app/NoruCore.pck",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore.pck",
+      "sha256": "bace28a6a138936885a9ca56cb697ca7c7e5da3b9097db527101b2d78a8b4669",
+      "size": 122504604,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libnobodywho-godot-x86-64-pc-windows-msvc-release-dll",
+      "path": "app/libnobodywho-godot-x86_64-pc-windows-msvc-release.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libnobodywho-godot-x86_64-pc-windows-msvc-release.dll",
+      "sha256": "6dfd840e5f12df6d343de5e6eb24c6bbcdb2210e7a3c7ebcf7480b639900d085",
+      "size": 30876672,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "native-memory-store-windows-template-release-x86-64-dll",
+      "path": "app/native_memory_store.windows.template_release.x86_64.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/native_memory_store.windows.template_release.x86_64.dll",
+      "sha256": "e0adb849acdba4855fa9672a7c4fb32be0795ba7b7b6eb895f8b92bb81c043d8",
+      "size": 2288640,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "native-turn-analyzer-windows-template-release-x86-64-dll",
+      "path": "app/native_turn_analyzer.windows.template_release.x86_64.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/native_turn_analyzer.windows.template_release.x86_64.dll",
+      "sha256": "788d8c8bd74de8490e479f5043b5530f55820c273962ceb6a15f7f42e6e4fe2b",
+      "size": 951808,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "norucore-x86-64",
+      "path": "app/NoruCore.x86_64",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore.x86_64",
+      "sha256": "c597144c89c168dba1c4aa6bebb47e4f164edb2343212cff763e85503e3cd171",
+      "size": 78504520,
+      "executable": true,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "norucore-linux-pck",
+      "path": "app/NoruCore.pck",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/NoruCore-linux.pck",
+      "sha256": "9cf3aaeff6aff91f61192c6d4faf4229dbb5c14fe24d54dacbbed2c7404e252d",
+      "size": 122504604,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libnobodywho-godot-x86-64-unknown-linux-gnu-release-so",
+      "path": "app/libnobodywho-godot-x86_64-unknown-linux-gnu-release.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libnobodywho-godot-x86_64-unknown-linux-gnu-release.so",
+      "sha256": "8d6a97a5ccbf10c34a737f90a8c765f18d601d2537d34b1ea469d2c3582c9372",
+      "size": 28846080,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libnative-memory-store-linux-template-release-x86-64-so",
+      "path": "app/libnative_memory_store.linux.template_release.x86_64.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libnative_memory_store.linux.template_release.x86_64.so",
+      "sha256": "3c1deb9eb7976f0ca600bf2cedc3e797d40e85507e270c44bb52549b23b025f6",
+      "size": 3740376,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libnative-turn-analyzer-linux-template-release-x86-64-so",
+      "path": "app/libnative_turn_analyzer.linux.template_release.x86_64.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libnative_turn_analyzer.linux.template_release.x86_64.so",
+      "sha256": "1da68b9bed6940d3bb9a232478ad4b6d836a991b634bfc7f8c444e95e505a144",
+      "size": 1066344,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-base-so-0",
+      "path": "app/libggml-base.so.0",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-base.so.0",
+      "sha256": "fa2cbd5888d7c04098060158c0e52720976f21e723b8d2b2fd904bde95cd9aac",
+      "size": 846632,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-alderlake-so",
+      "path": "app/libggml-cpu-alderlake.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-alderlake.so",
+      "sha256": "12540b130d4e3a91c9fafe8c90a9e9633780c46c33215fb02e9cdc00199a1bfa",
+      "size": 1145152,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-cannonlake-so",
+      "path": "app/libggml-cpu-cannonlake.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-cannonlake.so",
+      "sha256": "6559b9ec709465ff003fef0f08b662216e54ad86871e3afecc01c422167397ed",
+      "size": 1284416,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-cascadelake-so",
+      "path": "app/libggml-cpu-cascadelake.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-cascadelake.so",
+      "sha256": "215b449c535311d09e1a25565a2d3200e685cb3abcfc02358f33d4c454ab5775",
+      "size": 1280320,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-cooperlake-so",
+      "path": "app/libggml-cpu-cooperlake.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-cooperlake.so",
+      "sha256": "3b844f39414225dfeb2ed9b8a125fca825bef23449b803e100c4ecae37cc01a8",
+      "size": 1280320,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-haswell-so",
+      "path": "app/libggml-cpu-haswell.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-haswell.so",
+      "sha256": "6c5e8142888b40c33c668dccb60b3b23b85d4aa26542d0f427621be88fe1f556",
+      "size": 1149248,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-icelake-so",
+      "path": "app/libggml-cpu-icelake.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-icelake.so",
+      "sha256": "dc67eaa73be02b8d0aee24edb94faef7d29ba10ed37cce5b2f64e5feb2f90189",
+      "size": 1280320,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-ivybridge-so",
+      "path": "app/libggml-cpu-ivybridge.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-ivybridge.so",
+      "sha256": "5cd2a23afffc8b957bb5813872674e90d81fb1fc0dcb292cac0e253cba4ca3be",
+      "size": 1112480,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-piledriver-so",
+      "path": "app/libggml-cpu-piledriver.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-piledriver.so",
+      "sha256": "aef015015020f3e3a53c220ee3ebbb6d64c244b2c7e8cb5b2fb6aeb3d81afa3f",
+      "size": 1108384,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-sandybridge-so",
+      "path": "app/libggml-cpu-sandybridge.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-sandybridge.so",
+      "sha256": "ae9bd4b61d0c61dd08debc4aa8b63330c924cbccd15b0805d51418e81e923152",
+      "size": 1100192,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-sapphirerapids-so",
+      "path": "app/libggml-cpu-sapphirerapids.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-sapphirerapids.so",
+      "sha256": "222abb5ff931adf74c8827015050ff86a69cb81c5668fd74672aee700c0bbfe5",
+      "size": 1530424,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-skylakex-so",
+      "path": "app/libggml-cpu-skylakex.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-skylakex.so",
+      "sha256": "79dbb78071e00ef4cafea55910d2b9ca63de8e9b678805326758f2b457b59117",
+      "size": 1284416,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-sse42-so",
+      "path": "app/libggml-cpu-sse42.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-sse42.so",
+      "sha256": "44145253e344a1a81b115d6e36ccfde30d3f4cfc4dac881ed8409560fbff2195",
+      "size": 907808,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-x64-so",
+      "path": "app/libggml-cpu-x64.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-x64.so",
+      "sha256": "b99da6cbfd9f69a39052b5a8eb280b24c6dc389ca19c6d388d6b005bd607c2ce",
+      "size": 903744,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-cpu-zen4-so",
+      "path": "app/libggml-cpu-zen4.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-cpu-zen4.so",
+      "sha256": "d54f23be46171be6e3435ac8dec8ac67ce80976b5b1cc2df410692e8128acbb2",
+      "size": 1280320,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-vulkan-so",
+      "path": "app/libggml-vulkan.so",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml-vulkan.so",
+      "sha256": "d40686d2f7b7f47ba91cdc711494d195451987ff7e128fa3442e54f4ddf95f27",
+      "size": 42699248,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libggml-so-0",
+      "path": "app/libggml.so.0",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libggml.so.0",
+      "sha256": "0307e8a713c3db3d30232abdfff69a331c8930e929fa5e07a89854c5b948be62",
+      "size": 47840,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libllama-common-so-0",
+      "path": "app/libllama-common.so.0",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libllama-common.so.0",
+      "sha256": "a094da954393f345ab9bdd96c710772d47155fa751b9b77431a2c3ffee2d8049",
+      "size": 4834632,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libllama-so-0",
+      "path": "app/libllama.so.0",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libllama.so.0",
+      "sha256": "50bbe13f07c9ef7626ee0b760c64d4502003e51c398766216316c058fe4f98df",
+      "size": 3922264,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "libmtmd-so-0",
+      "path": "app/libmtmd.so.0",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/libmtmd.so.0",
+      "sha256": "a70c3c655b5279dc545873aaf8d53ad22d737524232eb59f6d50ef90adfaf42c",
+      "size": 1708160,
+      "executable": false,
+      "platforms": [
+        "Linux"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-base-dll",
+      "path": "app/ggml-base.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-base.dll",
+      "sha256": "fb62feeee2f00194053c06f013182831b87c636c148f10752326c547d01d198d",
+      "size": 689152,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-alderlake-dll",
+      "path": "app/ggml-cpu-alderlake.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-alderlake.dll",
+      "sha256": "5b53f96d3d52d4d3aafe2cee8fba869490962c884b38d49f9e12a8c7b65d77d0",
+      "size": 1005056,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-cannonlake-dll",
+      "path": "app/ggml-cpu-cannonlake.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-cannonlake.dll",
+      "sha256": "a0752c9cfd5c33a34397c4964b911e39146f4f64ac3fa2bffdf4b87df305fb8f",
+      "size": 1115648,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-cascadelake-dll",
+      "path": "app/ggml-cpu-cascadelake.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-cascadelake.dll",
+      "sha256": "27d20ecde3601e034eec4994b8be927e39bd3e0f9dd78010313d60e8e8518c0f",
+      "size": 1111040,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-haswell-dll",
+      "path": "app/ggml-cpu-haswell.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-haswell.dll",
+      "sha256": "f26462050e323b3bb7c3661f43edc9e352f4aff52a6acb3d8969840988dc731f",
+      "size": 1007616,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-icelake-dll",
+      "path": "app/ggml-cpu-icelake.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-icelake.dll",
+      "sha256": "a678431b09916a957b8e10a43155cf5f52c820ab07790c0a30b7c299a1df6adc",
+      "size": 1111040,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-sandybridge-dll",
+      "path": "app/ggml-cpu-sandybridge.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-sandybridge.dll",
+      "sha256": "a01ae3e1a0f6c451bec57dc7922ebce11dd4069050035a4c47caaf193ff0beb7",
+      "size": 971776,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-skylakex-dll",
+      "path": "app/ggml-cpu-skylakex.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-skylakex.dll",
+      "sha256": "e298bbb7e59fad1a516d90acac830afad871267d384b0ecad79f7e0c3c9f717b",
+      "size": 1115648,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-sse42-dll",
+      "path": "app/ggml-cpu-sse42.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-sse42.dll",
+      "sha256": "ae44027c2d0375668b2fb774fe6e95b4897a0a61a51fd0a131ec37d1ac2b934f",
+      "size": 871936,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-cpu-x64-dll",
+      "path": "app/ggml-cpu-x64.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-cpu-x64.dll",
+      "sha256": "ce650e1ee5ece74a0ec575913d29cf359eb6de79543db4faf072bcfee55cd1f2",
+      "size": 876032,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-vulkan-dll",
+      "path": "app/ggml-vulkan.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml-vulkan.dll",
+      "sha256": "5cf6680ad181e175251f8814e505bc8b1b97f982d82c6b40073eef439a78e3f3",
+      "size": 41930240,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "ggml-dll",
+      "path": "app/ggml.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/ggml.dll",
+      "sha256": "529613971fc942331502ceca4e38cdfbc132b63e5964855b85c4f4ac3ed9b409",
+      "size": 60416,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "llama-common-dll",
+      "path": "app/llama-common.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/llama-common.dll",
+      "sha256": "76d3517d8ffbe80eda90f4001b17c81f7a7977893831636aa512d0bc03ddfbe9",
+      "size": 8097280,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "llama-dll",
+      "path": "app/llama.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/llama.dll",
+      "sha256": "9717a37161be52e4c3e14e6401a7a9abc54f65a78eecb0ea20efdc7ea227b427",
+      "size": 2592256,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "mtmd-dll",
+      "path": "app/mtmd.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/mtmd.dll",
+      "sha256": "53d3c8c3fad6da7dd5f9993a7774911a2d31465b4c414a08a24a7f0eb118032e",
+      "size": 2395648,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "msvcp140-dll",
+      "path": "app/msvcp140.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/msvcp140.dll",
+      "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+      "size": 643512,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "vcomp140-dll",
+      "path": "app/vcomp140.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/vcomp140.dll",
+      "sha256": "95d4ce4a6802d1e18b5e0e1722cc30ea72ca7e033f83828f05c0b7b993fe7cbf",
+      "size": 212920,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "vcruntime140-dll",
+      "path": "app/vcruntime140.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/vcruntime140.dll",
+      "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7",
+      "size": 178616,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    },
+    {
+      "id": "vcruntime140-1-dll",
+      "path": "app/vcruntime140_1.dll",
+      "url": "https://github.com/norucore/norucore-updates/releases/download/Preview/vcruntime140_1.dll",
+      "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e",
+      "size": 50112,
+      "executable": false,
+      "platforms": [
+        "Windows"
+      ],
+      "architectures": [
+        "x86_64"
+      ]
+    }
+  ]
+}
